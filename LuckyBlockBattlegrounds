@@ -144,8 +144,8 @@ LNormal.TextSize = 18.000
 LNormal.TextStrokeTransparency = 0.000
 LNormal.MouseButton1Click:connect(function()
 	for i=1, full.Text do
-		game.ReplicatedStorage.SpawnLuckyBlock:FireServer()
-	end
+		game.ReplicatedStorage.SpawnGalaxyBlock:FireServer()
+	end 
 end)
 
 
@@ -379,7 +379,7 @@ full.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 full.BackgroundTransparency = 1.000
 full.Size = UDim2.new(0, 200, 0, 50)
 full.Font = Enum.Font.SourceSans
-full.Text = "100"
+full.Text = "200"
 full.TextColor3 = Color3.fromRGB(0, 0, 0)
 full.TextSize = 1.000
 full.TextTransparency = 1.000
