@@ -1,0 +1,486 @@
+game.StarterGui:SetCore("SendNotification", {
+	Title = "Lavias Injected";
+	Text = "New button added to the menu.";
+	Duration = 5;
+})
+
+
+-- Instances:
+
+local OpenCloseGUI = Instance.new("ScreenGui")
+local OpenClose = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local Frame = Instance.new("Frame")
+local Frame_2 = Instance.new("Frame")
+local Frame_3 = Instance.new("Frame")
+local Lavias = Instance.new("TextLabel")
+local Lavias_2 = Instance.new("TextLabel")
+local Lavias_3 = Instance.new("TextLabel")
+local Lavias_4 = Instance.new("TextLabel")
+local LNormal = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local LDiamond = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local LSuper = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local LRainbow = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local LGalaxy = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local BTools = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local InfinityYield = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local Frame_4 = Instance.new("Frame")
+local Lavias_5 = Instance.new("TextLabel")
+local Lavias_6 = Instance.new("TextLabel")
+local Discord = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local YouTB = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local Lavias_7 = Instance.new("TextLabel")
+local open_box = Instance.new("TextLabel")
+local As = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local Lavias_8 = Instance.new("TextLabel")
+local full = Instance.new("TextLabel")
+
+--Properties:
+
+OpenCloseGUI.Name = "OpenCloseGUI"
+OpenCloseGUI.Parent = game.CoreGui
+
+OpenClose.Name = "Open/Close"
+OpenClose.Parent = OpenCloseGUI
+OpenClose.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OpenClose.BackgroundTransparency = 0.500
+OpenClose.Position = UDim2.new(0.0218532998, 0, 0.013011124, 0)
+OpenClose.Size = UDim2.new(0, 32, 0, 31)
+OpenClose.Font = Enum.Font.Antique
+OpenClose.Text = "L"
+OpenClose.TextColor3 = Color3.fromRGB(255, 255, 255)
+OpenClose.TextScaled = true
+OpenClose.TextWrapped = true
+
+UICorner.CornerRadius = UDim.new(0, 5)
+UICorner.Parent = OpenClose
+
+Frame.Parent = OpenCloseGUI
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BackgroundTransparency = 0.350
+Frame.Position = UDim2.new(0.223681986, -100, 0.376340508, -100)
+Frame.Size = UDim2.new(0, 676, 0, 280)
+Frame.Visible = false
+
+Frame_2.Parent = Frame
+Frame_2.BackgroundColor3 = Color3.fromRGB(62, 0, 0)
+Frame_2.BorderColor3 = Color3.fromRGB(53, 0, 0)
+Frame_2.Position = UDim2.new(-0.00887573976, 0, 0.0290697683, 0)
+Frame_2.Size = UDim2.new(0, 688, 0, 2)
+
+Frame_3.Parent = Frame_2
+Frame_3.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+Frame_3.BorderColor3 = Color3.fromRGB(255, 0, 4)
+Frame_3.Position = UDim2.new(-0.000154809095, 0, -6.00581408, 0)
+Frame_3.Size = UDim2.new(0, 688, 0, 12)
+
+Lavias.Name = "Lavias"
+Lavias.Parent = Frame_2
+Lavias.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Lavias.BackgroundTransparency = 1.000
+Lavias.Position = UDim2.new(0.938255966, 0, -7.5, 0)
+Lavias.Size = UDim2.new(0, 42, 0, 17)
+Lavias.Font = Enum.Font.PatrickHand
+Lavias.Text = "v1.0.1"
+Lavias.TextColor3 = Color3.fromRGB(255, 255, 255)
+Lavias.TextSize = 18.000
+Lavias.TextStrokeTransparency = 0.000
+
+Lavias_2.Name = "Lavias"
+Lavias_2.Parent = Frame_2
+Lavias_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Lavias_2.BackgroundTransparency = 1.000
+Lavias_2.Position = UDim2.new(0.0610465147, 0, -7.5, 0)
+Lavias_2.Size = UDim2.new(0, 48, 0, 17)
+Lavias_2.Font = Enum.Font.PatrickHand
+Lavias_2.Text = "}"
+Lavias_2.TextColor3 = Color3.fromRGB(74, 0, 1)
+Lavias_2.TextSize = 13.000
+Lavias_2.TextStrokeTransparency = 0.000
+
+Lavias_3.Name = "Lavias"
+Lavias_3.Parent = Frame_2
+Lavias_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Lavias_3.BackgroundTransparency = 1.000
+Lavias_3.Position = UDim2.new(0.168883726, 0, -7.5, 0)
+Lavias_3.Size = UDim2.new(0, 48, 0, 17)
+Lavias_3.Font = Enum.Font.PatrickHand
+Lavias_3.Text = "LuckyBlock Battlegrounds"
+Lavias_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Lavias_3.TextSize = 18.000
+Lavias_3.TextStrokeTransparency = 0.000
+
+Lavias_4.Name = "Lavias"
+Lavias_4.Parent = Frame_2
+Lavias_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Lavias_4.BackgroundTransparency = 1.000
+Lavias_4.Position = UDim2.new(0.00872093067, 0, -7.5, 0)
+Lavias_4.Size = UDim2.new(0, 48, 0, 17)
+Lavias_4.Font = Enum.Font.PatrickHand
+Lavias_4.Text = "Lavias HUB"
+Lavias_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Lavias_4.TextSize = 18.000
+Lavias_4.TextStrokeTransparency = 0.000
+
+LNormal.Name = "LNormal"
+LNormal.Parent = Frame_2
+LNormal.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+LNormal.Position = UDim2.new(0.0261627901, 0, 10, 0)
+LNormal.Size = UDim2.new(0, 115, 0, 24)
+LNormal.Font = Enum.Font.PatrickHand
+LNormal.Text = "Full Inventory"
+LNormal.TextColor3 = Color3.fromRGB(255, 255, 255)
+LNormal.TextSize = 18.000
+LNormal.TextStrokeTransparency = 0.000
+LNormal.MouseButton1Click:connect(function()
+	for i=1, full.Text do
+		game.ReplicatedStorage.SpawnLuckyBlock:FireServer()
+	end
+end)
+
+
+UICorner_2.CornerRadius = UDim.new(0, 5)
+UICorner_2.Parent = LNormal
+
+LDiamond.Name = "LDiamond"
+LDiamond.Parent = Frame_2
+LDiamond.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+LDiamond.Position = UDim2.new(0.0261627883, 0, 34, 0)
+LDiamond.Size = UDim2.new(0, 115, 0, 24)
+LDiamond.Font = Enum.Font.PatrickHand
+LDiamond.Text = "LuckyBlock Diamond"
+LDiamond.TextColor3 = Color3.fromRGB(255, 255, 255)
+LDiamond.TextSize = 18.000
+LDiamond.TextStrokeTransparency = 0.000
+LDiamond.MouseButton1Click:connect(function()
+	for i=1, open_box.Text do
+		game.ReplicatedStorage.SpawnDiamondBlock:FireServer()
+	end
+end)
+
+
+UICorner_3.CornerRadius = UDim.new(0, 5)
+UICorner_3.Parent = LDiamond
+
+LSuper.Name = "LSuper"
+LSuper.Parent = Frame_2
+LSuper.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+LSuper.Position = UDim2.new(0.0261627883, 0, 59.5, 0)
+LSuper.Size = UDim2.new(0, 115, 0, 24)
+LSuper.Font = Enum.Font.PatrickHand
+LSuper.Text = "LuckyBlock Super"
+LSuper.TextColor3 = Color3.fromRGB(255, 255, 255)
+LSuper.TextSize = 18.000
+LSuper.TextStrokeTransparency = 0.000
+LSuper.MouseButton1Click:connect(function()
+	for i=1, open_box.Text do
+		game.ReplicatedStorage.SpawnSuperBlock:FireServer()
+	end
+end)
+
+
+UICorner_4.CornerRadius = UDim.new(0, 5)
+UICorner_4.Parent = LSuper
+
+LRainbow.Name = "LRainbow"
+LRainbow.Parent = Frame_2
+LRainbow.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+LRainbow.Position = UDim2.new(0.0261627883, 0, 83, 0)
+LRainbow.Size = UDim2.new(0, 115, 0, 24)
+LRainbow.Font = Enum.Font.PatrickHand
+LRainbow.Text = "LuckyBlock Rainbow"
+LRainbow.TextColor3 = Color3.fromRGB(255, 255, 255)
+LRainbow.TextSize = 18.000
+LRainbow.TextStrokeTransparency = 0.000
+LRainbow.MouseButton1Click:connect(function()
+	for i=1, open_box.Text do --This number means that you'll get 100 gears (you can change this)
+		game.ReplicatedStorage.SpawnRainbowBlock:FireServer()
+	end
+end)
+
+
+UICorner_5.CornerRadius = UDim.new(0, 5)
+UICorner_5.Parent = LRainbow
+
+LGalaxy.Name = "LGalaxy"
+LGalaxy.Parent = Frame_2
+LGalaxy.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+LGalaxy.Position = UDim2.new(0.0261627883, 0, 106, 0)
+LGalaxy.Size = UDim2.new(0, 115, 0, 24)
+LGalaxy.Font = Enum.Font.PatrickHand
+LGalaxy.Text = "LuckyBlock Galaxy"
+LGalaxy.TextColor3 = Color3.fromRGB(255, 255, 255)
+LGalaxy.TextSize = 18.000
+LGalaxy.TextStrokeTransparency = 0.000
+LGalaxy.MouseButton1Click:connect(function()
+	for i=1, open_box.Text do
+		game.ReplicatedStorage.SpawnGalaxyBlock:FireServer()
+	end 
+end)
+
+
+UICorner_6.CornerRadius = UDim.new(0, 5)
+UICorner_6.Parent = LGalaxy
+
+BTools.Name = "BTools"
+BTools.Parent = Frame_2
+BTools.BackgroundColor3 = Color3.fromRGB(132, 0, 2)
+BTools.Position = UDim2.new(0.207848832, 0, 10, 0)
+BTools.Size = UDim2.new(0, 115, 0, 24)
+BTools.Font = Enum.Font.PatrickHand
+BTools.Text = "BTools"
+BTools.TextColor3 = Color3.fromRGB(255, 255, 255)
+BTools.TextSize = 18.000
+BTools.TextStrokeTransparency = 0.000
+BTools.MouseButton1Click:connect(function()
+loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/BTools.txt"))()
+end)
+
+
+
+UICorner_7.CornerRadius = UDim.new(0, 5)
+UICorner_7.Parent = BTools
+
+InfinityYield.Name = "InfinityYield"
+InfinityYield.Parent = Frame_2
+InfinityYield.BackgroundColor3 = Color3.fromRGB(132, 0, 2)
+InfinityYield.Position = UDim2.new(0.207848832, 0, 34, 0)
+InfinityYield.Size = UDim2.new(0, 115, 0, 24)
+InfinityYield.Font = Enum.Font.PatrickHand
+InfinityYield.Text = "InfinityYield"
+InfinityYield.TextColor3 = Color3.fromRGB(255, 255, 255)
+InfinityYield.TextSize = 18.000
+InfinityYield.TextStrokeTransparency = 0.000
+InfinityYield.MouseButton1Click:connect(function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+
+UICorner_8.CornerRadius = UDim.new(0, 5)
+UICorner_8.Parent = InfinityYield
+
+Frame_4.Parent = Frame_2
+Frame_4.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+Frame_4.BorderColor3 = Color3.fromRGB(255, 0, 4)
+Frame_4.Position = UDim2.new(0.261755824, 0, 63.4999962, 0)
+Frame_4.Rotation = -50.000
+Frame_4.Size = UDim2.new(0, 364, 0, 3)
+
+Lavias_5.Name = "Lavias"
+Lavias_5.Parent = Frame_2
+Lavias_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Lavias_5.BackgroundTransparency = 1.000
+Lavias_5.Position = UDim2.new(0.777895331, 0, 22, 0)
+Lavias_5.Size = UDim2.new(0, 48, 0, 17)
+Lavias_5.Font = Enum.Font.PatrickHand
+Lavias_5.Text = "LuckyBlock Battlegrounds"
+Lavias_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+Lavias_5.TextSize = 32.000
+Lavias_5.TextStrokeTransparency = 0.000
+
+Lavias_6.Name = "Lavias"
+Lavias_6.Parent = Frame_2
+Lavias_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Lavias_6.BackgroundTransparency = 1.000
+Lavias_6.Position = UDim2.new(0.899988353, 0, 30.5, 0)
+Lavias_6.Size = UDim2.new(0, 48, 0, 17)
+Lavias_6.Font = Enum.Font.PatrickHand
+Lavias_6.Text = "By Lavias"
+Lavias_6.TextColor3 = Color3.fromRGB(255, 0, 4)
+Lavias_6.TextSize = 22.000
+Lavias_6.TextStrokeTransparency = 0.000
+
+Discord.Name = "Discord"
+Discord.Parent = Frame_2
+Discord.BackgroundColor3 = Color3.fromRGB(58, 14, 190)
+Discord.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Discord.Position = UDim2.new(0.600290716, 0, 47.4999962, 0)
+Discord.Size = UDim2.new(0, 261, 0, 24)
+Discord.Font = Enum.Font.PatrickHand
+Discord.Text = "Copy Discord Url"
+Discord.TextColor3 = Color3.fromRGB(255, 255, 255)
+Discord.TextSize = 18.000
+Discord.TextStrokeTransparency = 0.000
+Discord.MouseButton1Down:connect(function()
+	setclipboard("https://discord.gg/fsEkyzBjQY")
+	wait(1)
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Success!";
+		Text = "Copy Discord: https://discord.gg/fsEkyzBjQY";
+		Duration = 5;
+	})
+end)
+
+
+UICorner_9.CornerRadius = UDim.new(0, 5)
+UICorner_9.Parent = Discord
+
+YouTB.Name = "YouTB"
+YouTB.Parent = Frame_2
+YouTB.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+YouTB.BorderColor3 = Color3.fromRGB(255, 255, 255)
+YouTB.Position = UDim2.new(0.600290716, 0, 65, 0)
+YouTB.Size = UDim2.new(0, 261, 0, 24)
+YouTB.Font = Enum.Font.PatrickHand
+YouTB.Text = "Copy Youtube Url"
+YouTB.TextColor3 = Color3.fromRGB(255, 255, 255)
+YouTB.TextSize = 18.000
+YouTB.TextStrokeTransparency = 0.000
+YouTB.MouseButton1Down:connect(function()
+	setclipboard("https://youtube.com/channel/UCveukJz8EU4pWkAMWcD4sGQ")
+	wait(1)
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Success!";
+		Text = "Copy Youtube: https://youtube.com/channel/UCveukJz8EU4pWkAMWcD4sGQ";
+		Duration = 5;
+	})
+end)
+
+
+UICorner_10.CornerRadius = UDim.new(0, 5)
+UICorner_10.Parent = YouTB
+
+Lavias_7.Name = "Lavias"
+Lavias_7.Parent = Frame_2
+Lavias_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Lavias_7.BackgroundTransparency = 1.000
+Lavias_7.Position = UDim2.new(0.754639506, 0, 77, 0)
+Lavias_7.Size = UDim2.new(0, 48, 0, 17)
+Lavias_7.Font = Enum.Font.PatrickHand
+Lavias_7.Text = "v1.0.1 - Copyright Lavias"
+Lavias_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+Lavias_7.TextSize = 13.000
+Lavias_7.TextStrokeTransparency = 0.130
+
+open_box.Name = "open_box"
+open_box.Parent = Frame_2
+open_box.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+open_box.BackgroundTransparency = 1.000
+open_box.Size = UDim2.new(0, 200, 0, 50)
+open_box.Font = Enum.Font.SourceSans
+open_box.Text = "1"
+open_box.TextColor3 = Color3.fromRGB(0, 0, 0)
+open_box.TextSize = 1.000
+open_box.TextTransparency = 1.000
+
+full.Name = "full"
+full.Parent = Frame_2
+full.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+full.BackgroundTransparency = 1.000
+full.Size = UDim2.new(0, 200, 0, 50)
+full.Font = Enum.Font.SourceSans
+full.Text = "100"
+full.TextColor3 = Color3.fromRGB(0, 0, 0)
+full.TextSize = 1.000
+full.TextTransparency = 1.000
+
+As.Name = "As"
+As.Parent = Frame
+As.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+As.BorderSizePixel = 5
+As.Position = UDim2.new(0, 12, 0, 33)
+As.Size = UDim2.new(0, 14, 0, 14)
+As.Visible = false
+As.Font = Enum.Font.SourceSansBold
+As.Text = ""
+As.TextColor3 = Color3.fromRGB(255, 255, 255)
+As.TextSize = 9.000
+As.TextStrokeTransparency = 0.000
+As.TextWrapped = true
+
+UICorner_11.Parent = As
+
+Lavias_8.Name = "Lavias"
+Lavias_8.Parent = As
+Lavias_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Lavias_8.BackgroundTransparency = 1.000
+Lavias_8.Position = UDim2.new(1.55162811, 0, -0.214285716, 0)
+Lavias_8.Size = UDim2.new(0, 42, 0, 17)
+Lavias_8.Font = Enum.Font.PatrickHand
+Lavias_8.Text = "CircleFov"
+Lavias_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+Lavias_8.TextSize = 18.000
+Lavias_8.TextStrokeTransparency = 0.000
+
+-- Scripts:
+
+local function OEMXYR_fake_script() -- OpenCloseGUI.Script 
+	local script = Instance.new('Script', OpenCloseGUI)
+
+	local branch = script.Parent --Variable points to ScreenGui & everthing inside/below it.
+	local open = branch["Open/Close"] --Variable points to the open/close button.
+	local MainFrame = branch.Frame --Variable points to "Frame".
+	
+	open.MouseButton1Click:connect(function() --Anonymous function that is wired to the open/close button.
+		if MainFrame.Visible == false then --If Frame isn't Visible then 
+			MainFrame.Visible = true --frame becomes visible
+			open.Text = "L" --text changes to close
+		elseif --elseif -->
+			MainFrame.Visible == true then --frame is visibe then 
+			MainFrame.Visible = false --frame.Visible = false
+			open.Text = "L" --text changes to open
+		end
+	end)
+	
+			
+end
+coroutine.wrap(OEMXYR_fake_script)()
+local function ZWVRFBM_fake_script() -- As.CheckBoxScript 
+	local script = Instance.new('LocalScript', As)
+
+	local Checked = script.Parent.Checked.Value
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if Checked then
+			Checked = false
+			script.Parent.Text = ""
+			function getplrsname() for i,v in pairs(game:GetChildren()) do if v.ClassName == "Players" then return v.Name end end end local players = getplrsname() local plr = game[players].LocalPlayer coroutine.resume(coroutine.create(function() while wait(1) do coroutine.resume(coroutine.create(function() for _,v in pairs(game[players]:GetPlayers()) do if v.Name ~= plr.Name and v.Character then v.Character.RightUpperLeg.CanCollide = false v.Character.RightUpperLeg.Transparency = 75 v.Character.RightUpperLeg.Size = Vector3.new(10,10,10) v.Character.LeftUpperLeg.CanCollide = false v.Character.LeftUpperLeg.Transparency = 75 v.Character.LeftUpperLeg.Size = Vector3.new(10,10,10) v.Character.HeadHB.CanCollide = false v.Character.HeadHB.Transparency = 75 v.Character.HeadHB.Size = Vector3.new(10,10,10) v.Character.HumanoidRootPart.CanCollide = false v.Character.HumanoidRootPart.Transparency = 75 v.Character.HumanoidRootPart.Size = Vector3.new(10,10,10) end end end)) end end))
+		else
+			Checked = true
+			script.Parent.Text = "♥"
+			local ScreenGui = Instance.new("ScreenGui")
+			local ImageLabel = Instance.new("ImageLabel")
+			ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+	
+			local dwCamera = workspace.CurrentCamera
+			local dwRunService = game:GetService("RunService")
+			local dwUIS = game:GetService("UserInputService")
+			local dwEntities = game:GetService("Players")
+			local dwLocalPlayer = dwEntities.LocalPlayer
+			local dwMouse = dwLocalPlayer:GetMouse()
+	
+			local settings = {
+				Aimbot = true,
+				Aiming = false,
+				Aimbot_AimPart = "Head",
+				Aimbot_TeamCheck = true,
+				Aimbot_Draw_FOV = true,
+				Aimbot_FOV_Radius = 100,
+				Aimbot_FOV_Color = Color3.fromRGB(255,255,255)
+			}
+	
+			local fovcircle = Drawing.new("Circle")
+			fovcircle.Visible = settings.Aimbot_Draw_FOV
+			fovcircle.Radius = settings.Aimbot_FOV_Radius
+			fovcircle.Color = settings.Aimbot_FOV_Color
+			fovcircle.Thickness = 1
+			fovcircle.Filled = false
+			fovcircle.Transparency = 1
+	
+			fovcircle.Position = Vector2.new(dwCamera.ViewportSize.X / 2, dwCamera.ViewportSize.Y / 2)
+	
+			
+				end
+		end)
+end
+coroutine.wrap(ZWVRFBM_fake_script)()
