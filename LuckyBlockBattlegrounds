@@ -312,11 +312,11 @@ Discord.TextColor3 = Color3.fromRGB(255, 255, 255)
 Discord.TextSize = 18.000
 Discord.TextStrokeTransparency = 0.000
 Discord.MouseButton1Down:connect(function()
-	setclipboard("https://discord.gg/fsEkyzBjQY")
+	setclipboard("https://discord.gg/rfAhEHZUY8")
 	wait(1)
 	game.StarterGui:SetCore("SendNotification", {
 		Title = "Success!";
-		Text = "Copy Discord: https://discord.gg/fsEkyzBjQY";
+		Text = "Copy Discord: https://discord.gg/rfAhEHZUY8";
 		Duration = 5;
 	})
 end)
