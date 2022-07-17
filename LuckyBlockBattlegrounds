@@ -62,7 +62,7 @@ OpenClose.TextColor3 = Color3.fromRGB(255, 255, 255)
 OpenClose.TextScaled = true
 OpenClose.TextWrapped = true
 
-UICorner.CornerRadius = UDim.new(0, 5)
+UICorner.CornerRadius = UDim.new(0, 9)
 UICorner.Parent = OpenClose
 
 Frame.Parent = OpenCloseGUI
