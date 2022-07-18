@@ -134,17 +134,20 @@ Lavias_4.TextStrokeTransparency = 0.000
 
 LNormal.Name = "LNormal"
 LNormal.Parent = Frame_2
-LNormal.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+LNormal.BackgroundColor3 = Color3.fromRGB(240, 240, 240)
 LNormal.Position = UDim2.new(0.0261627901, 0, 10, 0)
 LNormal.Size = UDim2.new(0, 115, 0, 24)
 LNormal.Font = Enum.Font.PatrickHand
-LNormal.Text = "Full Inventory"
+LNormal.Text = "LuckyBlock Void"
 LNormal.TextColor3 = Color3.fromRGB(255, 255, 255)
 LNormal.TextSize = 18.000
 LNormal.TextStrokeTransparency = 0.000
 LNormal.MouseButton1Click:connect(function()
+
+msg = Instance.new("Message") msg.Parent = game.Workspace msg.Text = "claimed the NEW VOID BLOCK!" wait(5) msg:Remove()
+
 	for i=1, full.Text do
-		game.ReplicatedStorage.SpawnGalaxyBlock:FireServer()
+		game.ReplicatedStorage.SpawnGalaxyBlock()
 	end 
 end)
 
