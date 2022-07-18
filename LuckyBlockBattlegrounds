@@ -1,5 +1,5 @@
 game.StarterGui:SetCore("SendNotification", {
-	Title = "Lavias Injected";
+	Title = "Console";
 	Text = "New button added to the menu.";
 	Duration = 5;
 })
