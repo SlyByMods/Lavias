@@ -147,7 +147,7 @@ LNormal.MouseButton1Click:connect(function()
 msg = Instance.new("Message") msg.Parent = game.Workspace msg.Text = "claimed the NEW VOID BLOCK!" wait(5) msg:Remove()
 
 	for i=1, full.Text do
-		game.ReplicatedStorage.SpawnGalaxyBlock()
+		game.ReplicatedStorage.SpawnGalaxyBlock:FireServer()
 	end 
 end)
 
